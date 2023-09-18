@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100&family=Roboto:ital,wght@0,100;0,300;0,500;1,100&display=swap');
 :root{
     --main-bg-dark: #01171F;
     --color-text-dark: #D6D0C9;
@@ -57,14 +56,56 @@ li{
     filter: drop-shadow(1px 1px 5px var(--color-100));
     height: 10rem;
     display: grid;
+    gap: 0.8rem;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr 4fr;
+    hyphens: auto;
+    word-break: auto;
 }
 li p:nth-child(2){
     font-weight: 500;
     text-align: end;
-    font-size: 0.8rem;
+    font-size: 0.6rem;
 }
+.project-title{
+    all: unset;
+    position: relative;
+    cursor: pointer;
+}
+.project-title svg{
+    position: absolute;
+    top: -0.8rem;
+    left: -1rem;
+    z-index: -1;
+    width: 2rem;
+}
+
+li a{
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+    padding: 0;
+    bottom: -0.4rem;
+    right: -0.4rem;
+}
+li a:hover path{
+    fill: var(--color-text);
+}
+li a:hover h4{
+    color: var(--color-300)
+}
+li path{
+    transition: all 0.4s ease-out;
+    fill: var(--color-300);
+}
+
+li p:nth-child(3){
+    font-weight: 300;
+    font-size: 1rem;
+    grid-column: 1/3;
+}
+
 li h4{
     font-size: 1.2rem;
 }
@@ -97,10 +138,8 @@ body{
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     background-color: var(--main-bg);
-    grid-template-rows: min-content;
     position: relative;
     width: 100%;
-    height: 300vh;
     display: grid;
     justify-items: center;
 }
@@ -115,6 +154,24 @@ img{
 }
 g{
     stroke: var(--color-text)
+}
+.landing{
+    height: 90vh;
+    display: grid;
+    align-content: center;
+}
+.landing p{
+    font-style: italic;
+}
+.landing h1{
+    font-size: 4rem;
+    padding: 1rem;
+    font-family: 'Josefin Slab', serif;
+}
+.projects{
+    width: 100%;
+    display: grid;
+    place-content: center;
 }
 .inactive{
     fill: transparent;
