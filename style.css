@@ -36,7 +36,7 @@ ul{
     grid-template-columns: repeat(auto-fill, minmax(12rem, 1fr));
     gap: 1rem;
     padding: 1rem;
-    max-width: min(100%, 60rem);
+    width: clamp(20rem, 90vw, 60rem);
     place-items: center;
     place-content: center;
 }
@@ -156,8 +156,9 @@ g{
     stroke: var(--color-text)
 }
 .landing{
-    height: 90vh;
+    height: 100vh;
     display: grid;
+    padding: 1rem;
     align-content: center;
 }
 .landing p{
@@ -171,6 +172,7 @@ g{
 .projects{
     width: 100%;
     display: grid;
+    position: relative;
     place-content: center;
 }
 .inactive{
