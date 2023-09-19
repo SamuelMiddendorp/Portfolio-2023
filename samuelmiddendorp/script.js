@@ -32,3 +32,27 @@ const applyLightMode = () => {
     moon.classList.add("inactive");
     moon.classList.remove("active");
 }
+
+
+let lastKnownScrollPosition = 0;
+let ticking = false;
+
+function changeImgPosition(scrollPos) {
+    console.log(scrollPos);
+    let logoElem = document.getElementById("bamtor");
+    let pos = `${scrollPos * 2}px`;
+    logoElem.style.left = pos;
+}
+
+document.addEventListener("scroll", (event) => {
+  lastKnownScrollPosition = window.scrollY;
+
+  if (!ticking) {
+    window.requestAnimationFrame(() => {
+      changeImgPosition(lastKnownScrollPosition);
+      ticking = false;
+    });
+
+    ticking = true;
+  }
+});
