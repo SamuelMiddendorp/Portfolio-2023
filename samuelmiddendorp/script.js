@@ -40,7 +40,7 @@ let ticking = false;
 function changeImgPosition(scrollPos) {
     console.log(scrollPos);
     let logoElem = document.getElementById("bamtor");
-    let pos = `${scrollPos * 2}px`;
+    let pos = `-${scrollPos * 0.8}px`;
     logoElem.style.left = pos;
 }
 

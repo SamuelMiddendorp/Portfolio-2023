@@ -93,9 +93,7 @@ li a{
 li a:hover path{
     fill: var(--color-text);
 }
-li a:hover h4{
-    color: var(--color-300)
-}
+
 li path{
     transition: all 0.4s ease-out;
     fill: var(--color-300);
@@ -165,10 +163,11 @@ g{
 }
 .landing p{
     font-style: italic;
+    font-size: 1.2rem;
 }
 .landing h1{
     font-size: 4rem;
-    padding: 1rem;
+    margin-bottom: 2rem;
     font-family: 'Josefin Slab', serif;
 }
 .projects{
