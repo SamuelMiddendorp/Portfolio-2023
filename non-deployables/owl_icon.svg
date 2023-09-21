@@ -7,6 +7,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:export-ydpi="16.256001"
+   inkscape:export-xdpi="16.256001"
+   inkscape:export-filename="D:\documenten\2023\Portfolio-2023\non-deployables\favicon_LIGHT.png"
    width="100mm"
    height="100mm"
    viewBox="0 0 99.999997 100.00001"
@@ -57,27 +60,28 @@
      id="layer1"
      transform="translate(72.304762,-26.133532)">
     <g
+       style="stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke:#131313;stroke-opacity:1"
        transform="translate(0.0026291,-0.13113786)"
        id="g846">
       <path
          class="moon"
          d="M 10.741509,29.343279 A 11.113748,11.114469 0 0 0 -0.37215424,40.457589 11.113748,11.114469 0 0 0 10.741509,51.572417 11.113748,11.114469 0 0 0 20.682117,45.427947 17.98223,17.983397 0 0 1 10.741509,29.343279 Z"
-         style="display:inline;opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         style="display:inline;opacity:1;fill:none;fill-opacity:1;stroke:#131313;stroke-width:4;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="path1026" />
       <path
          class="transformable"
          id="path1028"
-         style="display:inline;fill:none;fill-opacity:1;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         style="display:inline;fill:none;fill-opacity:1;stroke:#131313;stroke-width:4;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          d="m -50.041556,29.343279 a 17.98223,17.983397 0 0 0 -17.982133,17.983296 17.98223,17.983397 0 0 0 0.04866,1.322993 l -0.03649,0.01949 A 76.168774,76.17372 0 0 0 -2.0188224,122.81909 199.40374,199.41669 0 0 0 -32.96537,52.962592 a 17.98223,17.983397 0 0 0 0.905944,-5.635989 17.98223,17.983397 0 0 0 -17.98213,-17.983296 z" />
       <path
          id="path839"
-         style="display:inline;fill:none;fill-opacity:1;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         style="display:inline;fill:none;fill-opacity:1;stroke:#131313;stroke-width:4;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          d="m -6.526351,106.34637 c 0,0 12.9282437,-0.35608 29.944333,1.14339" />
       <path
          class="transformable"
          id="path1112"
          d="m -54.588333,117.55541 c 0,0 38.641988,-6.3806 72.129444,-1.97028"
-         style="display:inline;fill:none;fill-opacity:1;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+         style="display:inline;fill:none;fill-opacity:1;stroke:#131313;stroke-width:4;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     </g>
   </g>
 </svg>
